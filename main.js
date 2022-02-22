@@ -12,12 +12,12 @@ let hamburgerMenu = document.querySelector('.hamburger-menu');
 
 // Apro il menu Hamburger
 btnOpenHamburger.addEventListener('click', function() {
-    hamburgerMenu.style.display = 'block';
+    hamburgerMenu.classList.add('active');
 }
 );
 
 // Chiudo il menu Hamburger
 btnCloseHamburger.addEventListener('click', function () {
-    hamburgerMenu.style.display = 'none';
+    hamburgerMenu.classList.remove('active');
 }
 );
