@@ -21,7 +21,7 @@ header {
 .header-right {
     width: 80%;
 }
-.header-left img {
+.header-left svg {
     height: 40px;
     margin-top: 15px;
 }
